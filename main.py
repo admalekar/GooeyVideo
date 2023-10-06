@@ -7,6 +7,8 @@ from gooey_video import slideshow
 from gooey_video import trim_crop
 from gooey_video import watermark
 from gooey_video import extract_audio
+from gooey_video import remove_audio
+
 
 
 
@@ -20,6 +22,7 @@ def main():
     slideshow.add_parser(subparsers)
     watermark.watermark_parser(subparsers)
     extract_audio.extract_audio_parser(subparsers)
+    remove_audio.remove_audio_parser(subparsers)
     
 
     args = parser.parse_args()

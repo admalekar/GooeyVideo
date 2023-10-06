@@ -103,12 +103,13 @@ def extract_audio_parser(parent):
 
 def run(args):
     cmd_template = 'ffmpeg.exe -i "{input}" ' \
+                    '{overwrite} ' \
                    '-q:a 0 -map a ' \
                    '"{output}"'
 
     final_cmd = cmd_template.format(
         input=args.input,
-        #overwrite=args.overwrite,
+        overwrite=args.overwrite,
         output=args.output
     )
 
