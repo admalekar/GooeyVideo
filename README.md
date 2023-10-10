@@ -51,7 +51,7 @@ Triming / Cropping / Scaling:
  ## TO DO
 
  * Added the demos for new tools
- * Remove audio from video
+ * ~Remove audio from video~
  * GIF to video
  * MP3 to WAV and WAV to MP3 
 
